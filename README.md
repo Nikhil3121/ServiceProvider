@@ -1,4 +1,4 @@
-# ⚡ Nexus — Service Provider Frontend
+# ⚡  SP— Service Provider Frontends
 
 A **production-ready** React frontend for a professional services platform. Built with Vite, Tailwind CSS, Framer Motion, TanStack Query, and Zustand.
 
