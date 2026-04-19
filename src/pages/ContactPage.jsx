@@ -92,12 +92,12 @@ export default function ContactPage() {
                       <Input {...register('name')} placeholder="John Doe" error={errors.name?.message} />
                     </FormField>
                     <FormField label="Email address" error={errors.email?.message} required>
-                      <Input {...register('email')} type="email" placeholder="you@company.com" error={errors.email?.message} />
+                      <Input {...register('email')} type="email" placeholder="Infonik3121@gmail.com" error={errors.email?.message} />
                     </FormField>
                   </div>
                   <div className="grid sm:grid-cols-2 gap-4">
                     <FormField label="Phone number" error={errors.phone?.message}>
-                      <Input {...register('phone')} type="tel" placeholder="+91 98765 43210" />
+                      <Input {...register('phone')} type="tel" placeholder="+91 9142735101" />
                     </FormField>
                     <FormField label="Subject" error={errors.subject?.message}>
                       <Input {...register('subject')} placeholder="Project inquiry" />

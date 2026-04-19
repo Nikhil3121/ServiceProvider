@@ -1,6 +1,6 @@
 // src/components/layout/Footer.jsx
 import { Link } from 'react-router-dom'
-import { Github, Twitter, Linkedin, Mail } from 'lucide-react'
+import { Instagram, Mail } from 'lucide-react'
 import Logo from '@/components/ui/Logo'
 
 const cols = [
@@ -21,7 +21,7 @@ export default function Footer() {
               Professional services platform delivering excellence for businesses that refuse to settle for ordinary.
             </p>
             <div className="flex gap-3 mt-6">
-              {[Twitter, Linkedin, Github, Mail].map((Icon, i) => (
+              {[Instagram, Mail].map((Icon, i) => (
                 <a key={i} href="#" className="w-9 h-9 rounded-xl bg-surface-800 hover:bg-primary-700 flex items-center justify-center text-surface-400 hover:text-white transition-all duration-200">
                   <Icon size={16} />
                 </a>

@@ -62,7 +62,7 @@ export const getInitials = (name = '') =>
 /** Sleep helper */
 export const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
-/** Build query string */
+
 export const buildQuery = (params) => {
   const q = new URLSearchParams()
   Object.entries(params).forEach(([k, v]) => {

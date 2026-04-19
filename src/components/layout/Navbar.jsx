@@ -10,6 +10,7 @@ import { useRef } from 'react'
 import Logo from '@/components/ui/Logo'
 import Avatar from '@/components/ui/Avatar'
 
+
 const navLinks = [
   { to: '/services', label: 'Services' },
   { to: '/contact',  label: 'Contact' },
